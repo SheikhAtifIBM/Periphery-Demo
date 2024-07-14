@@ -7,7 +7,7 @@
 
 import UIKit
 
-class UnusedClass {
+class UnusedClass33 {
     
     
 }
