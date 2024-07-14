@@ -90,7 +90,6 @@ PLATFORMS
   universal-darwin-23
 
 DEPENDENCIES
-  danger
   danger-periphery
   danger-swiftlint
 
