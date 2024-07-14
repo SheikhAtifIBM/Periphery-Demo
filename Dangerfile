@@ -16,6 +16,11 @@ warn("Big PR") if git.lines_of_code > 500
 fail("fdescribe left in tests") if `grep -r fdescribe specs/ `.length > 1
 fail("fit left in tests") if `grep -r fit specs/ `.length > 1
 
-# periphery.binary_path = "Pods/Periphery/periphery"
-periphery.install
-periphery.scan
+# # periphery.binary_path = "Pods/Periphery/periphery"
+# periphery.install
+# periphery.scan
+
+periphery.scan(
+  project: "Periphery Demo.xcworkspace"
+  schemes: ["Periphery Demo"],
+  targets: "Periphery Demo")
