@@ -11,6 +11,12 @@ class UnusedClass {
     
     
 }
+
+
+class UnusedClass2 {
+    
+    
+}
                         
                         
 protocol UnusedProtocol {
