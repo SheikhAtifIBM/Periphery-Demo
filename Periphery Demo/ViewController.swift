@@ -7,6 +7,10 @@
 
 import UIKit
 
+class DemoUnused {
+    
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
