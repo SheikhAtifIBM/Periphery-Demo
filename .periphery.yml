@@ -1,8 +1,8 @@
-project: Periphery Demo.xcodeproj
 retain_objc_accessible: true
 retain_public: true
 schemes:
-- Periphery Demo
+- PeripheryDemo
 targets:
-- Periphery Demo
-- Periphery DemoTests
+- PeripheryDemo
+- PeripheryDemoTests
+workspace: PeripheryDemo.xcworkspace
