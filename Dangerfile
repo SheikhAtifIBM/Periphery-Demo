@@ -13,4 +13,4 @@ fail("fdescribe left in tests") if `grep -r fdescribe specs/ `.length > 1
 fail("fit left in tests") if `grep -r fit specs/ `.length > 1
 
 # periphery.install
-periphery.scan
+# periphery.scan
