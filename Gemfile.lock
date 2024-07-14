@@ -25,6 +25,7 @@ GEM
       octokit (~> 4.7)
       terminal-table (>= 1, < 4)
     danger-periphery (0.2.2)
+      danger
       danger-plugin-api (~> 1.0)
     danger-plugin-api (1.0.0)
       danger (> 2.0)
