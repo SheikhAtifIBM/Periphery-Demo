@@ -1,5 +1,4 @@
 require "periphery"
-require "danger-periphery"
 
 swiftlint.lint_files
 
