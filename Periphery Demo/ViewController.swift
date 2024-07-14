@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DemoUnused33 {
+class DemoUnused33s {
     
 }
 
