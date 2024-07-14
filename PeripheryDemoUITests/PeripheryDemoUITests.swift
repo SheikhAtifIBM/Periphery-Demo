@@ -1,13 +1,13 @@
 //
-//  Periphery_DemoUITests.swift
-//  Periphery DemoUITests
+//  PeripheryDemoUITests.swift
+//  PeripheryDemoUITests
 //
 //  Created by Sheikh Atif on 14/07/24.
 //
 
 import XCTest
 
-final class Periphery_DemoUITests: XCTestCase {
+final class PeripheryDemoUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

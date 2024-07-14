@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Periphery Demo
+//  PeripheryDemo
 //
 //  Created by Sheikh Atif on 14/07/24.
 //

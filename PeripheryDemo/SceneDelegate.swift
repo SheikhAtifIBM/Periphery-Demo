@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  Periphery Demo
+//  PeripheryDemo
 //
 //  Created by Sheikh Atif on 14/07/24.
 //
@@ -10,7 +10,6 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-    var iAmNotUsed: String = ""
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {

@@ -1,13 +1,13 @@
 //
-//  Periphery_DemoUITestsLaunchTests.swift
-//  Periphery DemoUITests
+//  PeripheryDemoUITestsLaunchTests.swift
+//  PeripheryDemoUITests
 //
 //  Created by Sheikh Atif on 14/07/24.
 //
 
 import XCTest
 
-final class Periphery_DemoUITestsLaunchTests: XCTestCase {
+final class PeripheryDemoUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
