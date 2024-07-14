@@ -17,8 +17,9 @@
 		786D808F2C43815A00413227 /* Periphery_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D808E2C43815A00413227 /* Periphery_DemoTests.swift */; };
 		786D80992C43815A00413227 /* Periphery_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D80982C43815A00413227 /* Periphery_DemoUITests.swift */; };
 		786D809B2C43815A00413227 /* Periphery_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786D809A2C43815A00413227 /* Periphery_DemoUITestsLaunchTests.swift */; };
+		786D80A72C43C5BC00413227 /* Pods_Periphery_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4934C1699518E8790985498 /* Pods_Periphery_Demo.framework */; };
+		786D80A82C43C5BC00413227 /* Pods_Periphery_Demo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E4934C1699518E8790985498 /* Pods_Periphery_Demo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AB0D5C090E6C1315951C51C4 /* Pods_Periphery_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB537126C6E4C9163BB1C8B /* Pods_Periphery_DemoTests.framework */; };
-		C5DE308FA4FE35266AB9552B /* Pods_Periphery_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4934C1699518E8790985498 /* Pods_Periphery_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,20 @@
 			remoteInfo = "Periphery Demo";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		786D80A92C43C5BC00413227 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				786D80A82C43C5BC00413227 /* Pods_Periphery_Demo.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		786D80742C43815900413227 /* Periphery Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Periphery Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5DE308FA4FE35266AB9552B /* Pods_Periphery_Demo.framework in Frameworks */,
+				786D80A72C43C5BC00413227 /* Pods_Periphery_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +193,7 @@
 				786D80702C43815900413227 /* Sources */,
 				786D80712C43815900413227 /* Frameworks */,
 				786D80722C43815900413227 /* Resources */,
+				786D80A92C43C5BC00413227 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
