@@ -21,6 +21,6 @@ fail("fit left in tests") if `grep -r fit specs/ `.length > 1
 # periphery.scan
 
 periphery.scan(
-  project: "Periphery Demo.xcworkspace"
+  project: "Periphery Demo.xcworkspace",
   schemes: ["Periphery Demo"],
   targets: "Periphery Demo")
