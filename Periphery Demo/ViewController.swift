@@ -7,8 +7,10 @@
 
 import UIKit
 
-class DemoUnused33s {
-    
+class DemoUnused33s{
+    func lin(){
+        
+    }
 }
 
 class ViewController: UIViewController {
