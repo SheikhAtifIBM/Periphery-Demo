@@ -227,7 +227,6 @@ PLATFORMS
 DEPENDENCIES
   danger
   danger-periphery
-  rails
 
 BUNDLED WITH
    2.2.3
