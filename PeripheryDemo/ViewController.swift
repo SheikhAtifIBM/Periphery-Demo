@@ -7,7 +7,14 @@
 
 import UIKit
 
+class Useless{
+    
+}
+protocol UselessProtocol{
+    
+}
 class ViewController: UIViewController {
+    var useless: String = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
