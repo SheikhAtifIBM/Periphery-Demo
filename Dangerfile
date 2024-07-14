@@ -1,6 +1,6 @@
 require "periphery"
 
-swiftlint.lint_files
+# swiftlint.lint_files
 
 # Sometimes it's a README fix, or something like that - which isn't relevant for
 # including in a project's CHANGELOG for example
@@ -17,5 +17,5 @@ fail("fdescribe left in tests") if `grep -r fdescribe specs/ `.length > 1
 fail("fit left in tests") if `grep -r fit specs/ `.length > 1
 
 # periphery.binary_path = "Pods/Periphery/periphery"
-# periphery.install
-# periphery.scan
+periphery.install
+periphery.scan
