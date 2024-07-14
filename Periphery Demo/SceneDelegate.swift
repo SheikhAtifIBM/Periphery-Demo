@@ -7,6 +7,12 @@
 
 import UIKit
 
+class UnusedClass {
+    
+    
+}
+                        
+                        
 protocol UnusedProtocol {
     func hello()
 }
