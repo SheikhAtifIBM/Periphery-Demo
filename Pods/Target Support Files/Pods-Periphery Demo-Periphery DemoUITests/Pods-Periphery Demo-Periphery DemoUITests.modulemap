@@ -1,0 +1,6 @@
+framework module Pods_Periphery_Demo_Periphery_DemoUITests {
+  umbrella header "Pods-Periphery Demo-Periphery DemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
