@@ -7,13 +7,13 @@
 
 import UIKit
 
-class UnusedClass22 {
+class UnusedClass {
     
     
 }
 
 
-class UnusedClass2 {
+class UnusedClass3 {
     
     
 }
